@@ -1,0 +1,46 @@
+<div align="center">
+  <b>A course in my <a href="https://github.com/abeerration/CS-Self-Education">CS Self Education</a> series</b>
+  <h1>Coding Tutorial – Module 1</h1>
+  <img src="banner.jpg" align="center"/>
+</div>
+<div align="right">
+  <sub>
+    <a href="https://www.vecteezy.com/vector-art/4865921-programmer-people-concept-use-laptop-and-programming-code-program-icon-spreading-with-modern-flat-style">Vector</a> by Vecteezy
+  </sub>
+</div>
+
+---
+
+## Prerequisites
+
+None
+
+## Course Description & Goals
+
+This introductory course offers a quick first dive into coding using HTML/CSS/JavaScript web development and Python.
+
+The course comprises of two modules.
+
+- [**Module 1**](https://github.com/abeerration/Coding-Tutorial-Module-1) teaches hands-on web development basics.
+- [**Module 2**](https://github.com/abeerration/Coding-Tutorial-Module-2) comprises of Python and more web development, backed with a bit more computer theory.
+
+---
+
+## Course Materials
+
+| # | Cover | Title |
+| ----------- | ----------- | ----------- |
+| **1.** | ![](getcoding.jpg) | <h4><i>David Whitney / Young Rewired State</i></h4><h2>Get Coding! Learn HTML, CSS & JavaScript</h2><h4>Walker Books</h4><p>2016</p><p align="center"><i>Book</i></p> |
+
+---
+
+## Chronological Course Work
+
+| # | Activity | Date / Duration | Links |
+| ----------- | ----------- | ----------- | ----------- |
+| **1.** | **Mission 1** – Build a web page | - | [code]() / [demo]() |
+| **2.** | **Mission 2** – Create a password | - | [code]() / [demo]() |
+| **3.** | **Mission 3** – Build an app | - | [code]() / [demo]() |
+| **4.** | **Mission 4** – Plan a route | - | [code]() / [demo]() |
+| **5.** | **Mission 5** – Make a game | - | [code]() / [demo]() |
+| **6.** | **Mission 6** – Finished website | - | [code]() / [demo]() |
