@@ -15,7 +15,7 @@
 
 None
 
-## Course Description & Goals
+## Description & Goals
 
 This introductory course offers a quick first dive into coding using HTML/CSS/JavaScript web development and Python.
 
@@ -26,7 +26,7 @@ The course comprises of two modules.
 
 ---
 
-## Course Materials
+## Materials
 
 | # | Cover | Title |
 | ----------- | ----------- | ----------- |
@@ -34,7 +34,7 @@ The course comprises of two modules.
 
 ---
 
-## Chronological Course Work
+## Course Work
 
 | # | Activity | Date / Duration | Links |
 | ----------- | ----------- | ----------- | ----------- |
