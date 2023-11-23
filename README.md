@@ -26,7 +26,7 @@ The course comprises of two modules.
 
 ---
 
-## Materials
+## Materials for Module 1
 
 | # | Cover | Title |
 | ----------- | ----------- | ----------- |
@@ -34,7 +34,7 @@ The course comprises of two modules.
 
 ---
 
-## Course Work
+## Course Work for Module 1
 
 | # | Activity | Date / Duration | Links |
 | ----------- | ----------- | ----------- | ----------- |
