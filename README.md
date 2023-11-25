@@ -44,4 +44,4 @@ The course comprises of two modules.
 | **4.** | **Mission 4** – Plan a route | - | [code]() / [demo]() |
 | **5.** | **Mission 5** – Make a game | - | [code]() / [demo]() |
 | **6.** | **Mission 6** – Finished website | - | [code]() / [demo]() |
-| **7.** | **Project** – YouTubeVideoThumbnails | - | [GitHub repo](https://github.com/abeerration/YouTubeVideoThumbnails) |
+| **7.** | **Project** – [YouTubeVideoThumbnails](https://github.com/abeerration/YouTubeVideoThumbnails) | - | [GitHub repo](https://github.com/abeerration/YouTubeVideoThumbnails) |
