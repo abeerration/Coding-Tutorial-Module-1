@@ -11,20 +11,22 @@
     function addTask() {
       var newTask = document.createElement("li");
       newTask.innerHTML = document.getElementById("taskTextBox").value;
+      newTask.onclick = removeTask;
       document.getElementById("taskList").appendChild(newTask);
 
       alert("Added task: " + newTask.innerHTML);
       alert("Task list contents: \n" + document.getElementById("taskList").innerHTML);
     }
+
+    function removeTask() {
+      document.getElementById("taskList").removeChild(this);
+    }
   </script>
 </head>
 <body>
-  <p>Special Exhibition To-Do List</p>
-  <br/>
-  <input id="taskTextBox" type="text" value="Task description"/>
-  <br/><br/>
-  <input type="button" value="Add Task" onclick="addTask();"/>
-  <br/><br/>
+  <p>Special Exhibition To-Do List</p><br/>
+  <input id="taskTextBox" type="text" value="Task description"/><br/><br/>
+  <input type="button" value="Add Task" onclick="addTask();"/><br/><br/>
   <ul id="taskList"></ul>
 </body>
 </html>
