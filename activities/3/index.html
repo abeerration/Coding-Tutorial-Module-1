@@ -10,6 +10,7 @@
   <script>
     function addTask() {
         alert("Added task: " + document.getElementById("taskTextBox").value);
+        alert("Task list contents: " + document.getElementById("taskList").innerHTML);
     }
   </script>
 </head>
@@ -19,5 +20,9 @@
   <input id="taskTextBox" type="text" value="Task description"/>
   <br/><br/>
   <input type="button" value="Add Task" onclick="addTask();"/>
+  <br/><br/>
+  <ul id="taskList">
+    
+  </ul>
 </body>
 </html>
