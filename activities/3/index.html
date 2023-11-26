@@ -9,8 +9,11 @@
   </style>
   <script>
     function addTask() {
-      document.getElementById("taskList").innerHTML += "<li>" + document.getElementById("taskTextBox").value + "</li>\n";
-      alert("Added task: " + document.getElementById("taskTextBox").value);
+      var newTask = document.createElement("li");
+      newTask.innerHTML = document.getElementById("taskTextBox").value;
+      document.getElementById("taskList").appendChild(newTask);
+
+      alert("Added task: " + newTask.innerHTML);
       alert("Task list contents: \n" + document.getElementById("taskList").innerHTML);
     }
   </script>
