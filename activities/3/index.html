@@ -7,12 +7,17 @@
       background-color: pink;
     }
   </style>
+  <script>
+    function addTask() {
+        alert("New task added!")
+    }
+  </script>
 </head>
 <body>
   <p>Special Exhibition To-Do List</p>
   <br/>
   <input type="text" value="Task description"/>
   <br/><br/>
-  <input type="button" value="Add Task"/>
+  <input type="button" value="Add Task" onclick="addTask();"/>
 </body>
 </html>
