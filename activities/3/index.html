@@ -9,8 +9,9 @@
   </style>
   <script>
     function addTask() {
-        alert("Added task: " + document.getElementById("taskTextBox").value);
-        alert("Task list contents: " + document.getElementById("taskList").innerHTML);
+      document.getElementById("taskList").innerHTML += "<li>" + document.getElementById("taskTextBox").value + "</li>\n";
+      alert("Added task: " + document.getElementById("taskTextBox").value);
+      alert("Task list contents: \n" + document.getElementById("taskList").innerHTML);
     }
   </script>
 </head>
@@ -21,8 +22,6 @@
   <br/><br/>
   <input type="button" value="Add Task" onclick="addTask();"/>
   <br/><br/>
-  <ul id="taskList">
-    
-  </ul>
+  <ul id="taskList"></ul>
 </body>
 </html>
