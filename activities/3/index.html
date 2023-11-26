@@ -13,20 +13,40 @@
       newTask.innerHTML = document.getElementById("taskTextBox").value;
       newTask.onclick = removeTask;
       document.getElementById("taskList").appendChild(newTask);
-
-      alert("Added task: " + newTask.innerHTML);
-      alert("Task list contents: \n" + document.getElementById("taskList").innerHTML);
+      saveTasks();
     }
 
     function removeTask() {
       document.getElementById("taskList").removeChild(this);
+      saveTasks();
+    }
+
+    function saveTasks() {
+      localStorage.savedTaskList = document.getElementById("taskList").innerHTML;
+    }
+
+    function loadTasks() {
+      if (localStorage.savedTaskList) {
+        document.getElementById("taskList").innerHTML = localStorage.savedTaskList;
+      }
+      for (var i = 0; i < taskList.children.length; i++) {
+        taskList.children[i].onclick = removeTask;
+      }
+    }
+
+    function wipeTasks() {
+      localStorage.savedTaskList = "";
+      document.getElementById("taskList").innerHTML = "";
+      alert("All tasks wiped!");
     }
   </script>
 </head>
-<body>
+<body onload="loadTasks();">
   <p>Special Exhibition To-Do List</p><br/>
   <input id="taskTextBox" type="text" value="Task description"/><br/><br/>
   <input type="button" value="Add Task" onclick="addTask();"/><br/><br/>
+  <input type="button" value="Wipe All Tasks" onclick="wipeTasks();"/><br/><br/>
+
   <ul id="taskList"></ul>
 </body>
 </html>
