@@ -9,14 +9,14 @@
   </style>
   <script>
     function addTask() {
-        alert("New task added!")
+        alert("Added task: " + document.getElementById("taskTextBox").value);
     }
   </script>
 </head>
 <body>
   <p>Special Exhibition To-Do List</p>
   <br/>
-  <input type="text" value="Task description"/>
+  <input id="taskTextBox" type="text" value="Task description"/>
   <br/><br/>
   <input type="button" value="Add Task" onclick="addTask();"/>
 </body>
