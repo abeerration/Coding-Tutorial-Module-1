@@ -44,4 +44,4 @@ The course comprises of two modules.
 | **4.** | **Mission 4** – Plan a route | - | [code](https://github.com/abeerration/Coding-Tutorial-Module-1/tree/main/activities/4) / [demo](https://abeerration.github.io/Coding-Tutorial-Module-1/activities/4/) |
 | **5.** | **Mission 5** – Make a game | - | [code](https://github.com/abeerration/Coding-Tutorial-Module-1/tree/main/activities/5) / [demo](https://abeerration.github.io/Coding-Tutorial-Module-1/activities/5/) |
 | **6.** | **Mission 6** – Finished website | - | [code](https://github.com/abeerration/Coding-Tutorial-Module-1/tree/main/activities/6) / [demo](https://abeerration.github.io/Coding-Tutorial-Module-1/activities/6/) |
-| **7.** | **Project** – [YouTubeVideoThumbnails](https://github.com/abeerration/YouTubeVideoThumbnails) | - | [GitHub repo](https://github.com/abeerration/YouTubeVideoThumbnails) |
+| **7.** | **Project** – [YouTubeVideoThumbnails](https://github.com/abeerration/YouTubeVideoThumbnails) | - | [code](https://github.com/abeerration/YouTubeVideoThumbnails) / [demo](https://abeerration.github.io/YouTubeVideoThumbnails/) |
