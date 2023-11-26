@@ -40,7 +40,7 @@ The course comprises of two modules.
 | ----------- | ----------- | ----------- | ----------- |
 | **1.** | **Mission 1** – Build a web page | 22 Nov 2023 | [code](https://github.com/abeerration/Coding-Tutorial-Module-1/tree/main/activities/1) / [demo](https://abeerration.github.io/Coding-Tutorial-Module-1/activities/1/) |
 | **2.** | **Mission 2** – Create a password | 25 Nov 2023 | [code](https://github.com/abeerration/Coding-Tutorial-Module-1/tree/main/activities/2) / [demo](https://abeerration.github.io/Coding-Tutorial-Module-1/activities/2/) |
-| **3.** | **Mission 3** – Build an app | - | [code]() / [demo]() |
+| **3.** | **Mission 3** – Build an app | 26 Nov 2023 | [code](https://github.com/abeerration/Coding-Tutorial-Module-1/tree/main/activities/3) / [demo](https://abeerration.github.io/Coding-Tutorial-Module-1/activities/3/) |
 | **4.** | **Mission 4** – Plan a route | - | [code]() / [demo]() |
 | **5.** | **Mission 5** – Make a game | - | [code]() / [demo]() |
 | **6.** | **Mission 6** – Finished website | - | [code]() / [demo]() |
