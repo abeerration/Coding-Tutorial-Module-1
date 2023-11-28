@@ -36,7 +36,9 @@
         gameLoop();
       }
       var loops = 0;
+      var peopleVisible = false;
       function gameLoop() {
+        peopleVisible = !peopleVisible;
         if (loops < 10) {
           setTimeout(gameLoop, 3000);
           loops++;
