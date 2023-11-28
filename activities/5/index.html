@@ -40,9 +40,9 @@
       var peopleVisible = false;
       
       function flashCharacters() {
-        var classToSet = classToSet = peopleVisible ? "character visible" : "character hidden";
+        var classToSet = peopleVisible ? "character visible" : "character hidden";
         var board = document.getElementById("board");
-        for (var i = 0; i < 6; i++>) {
+        for (var i = 0; i < 6; i++) {
           board.children[i].className = classToSet;
         }
       }
