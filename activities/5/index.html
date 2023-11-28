@@ -8,7 +8,9 @@
         border: 1px solid black;
         height: 350px;
         width: 650px;
-        margin-top: 10px;
+        margin-top: 28px;
+        margin-right: 10px;
+        float: left;
       }
       .character {
         background-image: url("Guest.jpg");
@@ -29,13 +31,13 @@
     </style>
   </head>
   <body>
-    <div style="font-size: 18pt;">
-      Score: <span id="score">0</span>
-    </div>
+    <div>Score: <span id="score">0</span></div>
     <br>
 
     <input type="button" value="Play" onclick="startGame();">
-    <div id="board">
+    <br>
+
+    <div id="board" style="">
       <div class="character"></div>
       <div class="character"></div>
       <div class="character"></div>
@@ -63,11 +65,21 @@
         var classToSet = peopleVisible ? "character visible" : "character hidden";
         for (var i = 0; i < 6; i++) {
           board.children[i].className = classToSet;
-          board.children[i].onclick = function() { gameScore += -2; document.getElementById("score").innerHTML = gameScore; }
+          board.children[i].onclick = function() {
+            for (var j = 0; j < 6; j++) {
+              board.children[j].onclick = null;
+            }
+            gameScore += -2;
+            document.getElementById("score").innerHTML = gameScore;
+          }
         }
         var randomNumber = Math.floor(Math.random() * 6) + 1;
         board.children[randomNumber-1].className = classToSet + " thief";
-        board.children[randomNumber-1].onclick = function() { gameScore += 1; document.getElementById("score").innerHTML = gameScore; }
+        board.children[randomNumber-1].onclick = function() {
+          board.children[randomNumber-1].onclick = null;
+          gameScore += 1;
+          document.getElementById("score").innerHTML = gameScore;
+        }
       }
       
       function gameLoop() {
@@ -79,6 +91,7 @@
         }
         else {
           alert("Game over! Your score: " + gameScore);
+          location.reload();
         }
       }      
     </script>
