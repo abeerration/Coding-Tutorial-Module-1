@@ -3,14 +3,14 @@
     <title>Security Game</title>
     <style>
       #board {
+        background: url('GameBackground.jpg');
+        background-size: cover;
         border: 1px solid black;
-        background-color: gray;
         height: 350px;
         width: 650px;
         margin-top: 10px;
       }
       .character {
-        /*background-color: lightblue;*/
         background-image: url("Guest.jpg");
         background-size: cover;
         width: 120px;
@@ -18,10 +18,10 @@
         margin: 10px;
         padding: 10px;
         float: left;
+        display: none;
       }
       .thief {
-        /*background-color: red;*/
-        background-image: url("Thief.jpg");
+        background-image: url('Thief.jpg');
         background-size: cover;
       }
       .hidden { display: none; }
@@ -29,17 +29,25 @@
     </style>
   </head>
   <body>
+    <div style="font-size: 18pt;">
+      Score: <span id="score">0</span>
+    </div>
+    <br>
+
     <input type="button" value="Play" onclick="startGame();">
     <div id="board">
-      <div class="character">1</div>
-      <div class="character">2</div>
-      <div class="character">3</div>
-      <div class="character">4</div>
-      <div class="character">5</div>
-      <div class="character">6</div>
+      <div class="character"></div>
+      <div class="character"></div>
+      <div class="character"></div>
+      <div class="character"></div>
+      <div class="character"></div>
+      <div class="character"></div>
     </div>
     
-    <div style="font-size: 30pt;">Score: <span id="score"></span></div>
+
+    <div id="rules">
+      <img src="Rules.jpg"/>
+    </div>
 
     <script>
       function startGame() {
@@ -55,12 +63,10 @@
         var classToSet = peopleVisible ? "character visible" : "character hidden";
         for (var i = 0; i < 6; i++) {
           board.children[i].className = classToSet;
-          /*board.children[i].innerHTML = "Guest";*/
           board.children[i].onclick = function() { gameScore += -2; document.getElementById("score").innerHTML = gameScore; }
         }
         var randomNumber = Math.floor(Math.random() * 6) + 1;
         board.children[randomNumber-1].className = classToSet + " thief";
-        /*board.children[randomNumber-1].innerHTML = "Thief";*/
         board.children[randomNumber-1].onclick = function() { gameScore += 1; document.getElementById("score").innerHTML = gameScore; }
       }
       
@@ -69,7 +75,7 @@
         setCharacters();
         loops++;
         if (loops < 12) {
-          setTimeout(gameLoop, 1000);
+          setTimeout(gameLoop, 1500);
         }
         else {
           alert("Game over! Your score: " + gameScore);
