@@ -9,17 +9,24 @@
         width: 650px;
         margin-top: 10px;
       }
+      .character {
+        background-color: lightblue;
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        padding: 10px;
+      }
     </style>
   </head>
   <body>
     <input type="button" value="Play" onclick="startGame();">
     <div id="board">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
-      <div>6</div>
+      <div class="character">1</div>
+      <div class="character">2</div>
+      <div class="character">3</div>
+      <div class="character">4</div>
+      <div class="character">5</div>
+      <div class="character">6</div>
     </div>
     <script>
       function startGame() {
