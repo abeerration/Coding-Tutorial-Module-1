@@ -46,18 +46,28 @@
           board.children[i].className = classToSet;
         }
       }
-            
+      
+      function setCharacters() {
+        var board = document.getElementById("board");
+        for (var i = 0; i < 6; i++) {
+          board.children[i].innerHTML = "Guest";
+        }
+        var randomNumber = Math.floor(Math.random() * 6) + 1;
+        board.children[randomNumber-1].innerHTML = "Thief";
+      }
+     
       function gameLoop() {
         peopleVisible = !peopleVisible;
+        setCharacters();
         flashCharacters();
+        loops++;
         if (loops < 12) {
           setTimeout(gameLoop, 3000);
-          loops++;
         }
         else {
           alert("Game over!");
         }
-      }
+      }      
     </script>
   </body>
 </html>
