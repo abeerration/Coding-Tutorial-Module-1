@@ -18,7 +18,12 @@
     </div>
     <script>
       function startGame() {
-        
+        gameLoop();
+      }
+      
+      function gameLoop() {
+        alert("An alert from gameLoop()");
+        setTimeout(gameLoop, 3000);
       }
     </script>
   </body>
