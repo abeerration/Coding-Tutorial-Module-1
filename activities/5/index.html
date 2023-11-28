@@ -35,10 +35,25 @@
       function startGame() {
         gameLoop();
       }
-      
+
       var loops = 0;
       var peopleVisible = false;
       
+      function flashCharacters() {
+        var classToSet = "";
+        if (peopleVisible) {
+          classToSet = "character visible"
+        }
+        else {
+          classToSet = "character hidden"          
+        }
+
+        var board = document.getElementById("board");
+        for (var i = 0; i < 6; i++>) {
+          board.children[i].className = classToSet;
+        }
+      }
+            
       function gameLoop() {
         peopleVisible = !peopleVisible;
         if (loops < 12) {
