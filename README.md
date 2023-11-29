@@ -43,5 +43,5 @@ The course comprises of two modules.
 | **3.** | **Mission 3** – Build an app | 26 Nov 2023 | [code](https://github.com/abeerration/Coding-Tutorial-Module-1/tree/main/activities/3) / [demo](https://abeerration.github.io/Coding-Tutorial-Module-1/activities/3/) |
 | **4.** | **Mission 4** – Plan a route | n/a | n/a |
 | **5.** | **Mission 5** – Make a game | 28 Nov 2023 | [code](https://github.com/abeerration/Coding-Tutorial-Module-1/tree/main/activities/5) / [demo](https://abeerration.github.io/Coding-Tutorial-Module-1/activities/5/) |
-| **6.** | **Mission 6** – Finished website | - | [code](https://github.com/abeerration/Coding-Tutorial-Module-1/tree/main/activities/6) / [demo](https://abeerration.github.io/Coding-Tutorial-Module-1/activities/6/) |
+| **6.** | **Mission 6** – Finished website | 29 Nov 2023 | [code](https://github.com/abeerration/Coding-Tutorial-Module-1/tree/main/activities/6) / [demo](https://abeerration.github.io/Coding-Tutorial-Module-1/activities/6/) |
 | **7.** | **Project** – [YouTubeVideoThumbnails](https://github.com/abeerration/YouTubeVideoThumbnails) | - | [code](https://github.com/abeerration/YouTubeVideoThumbnails) / [demo](https://abeerration.github.io/YouTubeVideoThumbnails/) |
