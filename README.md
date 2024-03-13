@@ -1,5 +1,5 @@
 <div align="center">
-  <b>A course in my <a href="https://github.com/abeerration/CS-Self-Education">CS Self Education</a> series</b>
+  <b>A tutorial in my <a href="https://github.com/abeerration/CS-Self-Education">CS Self Education</a> series</b>
   <h1>Coding Tutorial – Module 1</h1>
   <img src="banner-module-1.jpg" align="center"/>
 </div>
@@ -17,9 +17,9 @@ None
 
 ## Description & Goals
 
-This introductory course offers a quick first dive into coding using HTML/CSS/JavaScript web development and Python.
+This introductory tutorial offers a quick first dive into coding using HTML/CSS/JavaScript web development and Python.
 
-The course comprises of two modules.
+The tutorial comprises of two modules.
 
 - [**Module 1**](https://github.com/abeerration/Coding-Tutorial-Module-1) teaches hands-on web development basics.
 - [**Module 2**](https://github.com/abeerration/Coding-Tutorial-Module-2) comprises of Python and more web development, backed with a bit more computer theory.
